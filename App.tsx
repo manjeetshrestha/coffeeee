@@ -5,6 +5,7 @@
  * @format
  */
 
+import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import {CoffeeApp} from './src/CoffeeApp';
@@ -12,7 +13,9 @@ import {CoffeeApp} from './src/CoffeeApp';
 export function App(): React.JSX.Element {
   return (
     <SafeAreaProvider>
-      <CoffeeApp />
+      <NavigationContainer>
+        <CoffeeApp />
+      </NavigationContainer>
     </SafeAreaProvider>
   );
 }
