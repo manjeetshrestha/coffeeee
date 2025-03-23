@@ -20,6 +20,8 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>GIDClientID</key>
+	<string>753691650666-h4um89cjp7j080tklc5fn09bb9kfafu3.apps.googleusercontent.com</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -30,6 +32,7 @@
 				<string>com.googleusercontent.apps.753691650666-h4um89cjp7j080tklc5fn09bb9kfafu3</string>
 			</array>
 		</dict>
+		<dict/>
 		<dict/>
 	</array>
 	<key>CFBundleVersion</key>
